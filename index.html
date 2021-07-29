@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Formulir Login</title>
+    <style>
+        * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+    overflow: hidden;
+    background-image: url(email-pattern.png);
+}
+
+.container {
+    max-width: 650px;
+    margin: 25px auto;
+    border: 2px black solid;
+    padding: 20px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 0px,-1px -1px 10px -50px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 10px;
+    margin-left: 0px;
+}
+
+header p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form-login {
+    margin-bottom: 20px;
+}
+
+.form-login h4 {
+    margin-bottom: 5px;
+}
+
+.form-login input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(grey, grey, grey, 1px);
+
+}
+
+.form-login div {
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.register {
+    margin-bottom: 40px;
+}
+
+.register p {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.register p a {
+    color: #00bfff;
+}
+
+.register input {
+    width: 97%;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(6, 161, 6);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+footer a {
+    color: #00bfff;
+}
+    </style>
+</head>
+<body>
+    <!-- Bagian pembungkus utama -->
+    <div class="container">
+        <!-- Bagian Header -->
+        <header>
+            <h1>Register</h1>
+            <p>Please fill in this form to create an account.</p>
+        </header>
+        <!-- Akhir bagian Header -->
+
+        <!-- Bagian kolom input dari user -->
+        <div class="form-login">
+            <form>
+                <div class="email">
+                    <h4>Email</h4>
+                    <input type="text" placeholder="Enter Email">
+                </div>
+                <div class="password">
+                    <h4>Password</h4>
+                    <input type="password" placeholder="Enter Password">
+                </div>
+                <div class="repeat-password">
+                    <h4>Repeat Password</h4>
+                    <input type="password" placeholder="Repeat Password">
+                </div>
+            </form>
+        </div>
+        <!--  Akhir Bagian kolom input dari user -->
+
+        <!-- Bagian tombol register -->
+        <div class="register">
+            <p>By creating an account you agree to our <a href="">Terms & Privacy</a>.</p>
+            <input type="button" value="Register">
+        </div>
+        <!-- Akhir Bagian tombol register -->
+
+        <!-- Bagian Kaki -->
+        <footer>
+            <p>Already have an account? <a href="">Sign In</a>.</p>
+        </footer>
+        <!-- Akhir Bagian kaki -->
+    </div>
+    <!-- Akhir pembungkus utama -->
+</body>
+</html>
